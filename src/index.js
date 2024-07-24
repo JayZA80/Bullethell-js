@@ -1,6 +1,7 @@
-import Player from './scripts/Player.js';
-// // import { canvas } from './scripts/canvas.js';
+import Player from './Models/Player-Generics/Player.js';
+// // import { canvas } from './Views/canvas.js';
 
 const test = new Player('test');
-// test.loseLife();
-// console.log(test.getLives());
+console.log(`Lives: ${test.getLives()}`);
+test.loseLife();
+console.log(`Lives: ${test.getLives()}`);

@@ -3,7 +3,7 @@ class Player {
     #power = 1;
     #lives = 3;
     #bombs = 3;
-    #baseDmg = 100 * this.#power;
+    #shooter;
 
     getUsername = () => {
         return this.#username;
@@ -39,12 +39,13 @@ class Player {
         this.#bombs++;
     }
 
-    getBaseDmg = () => {
-        return this.#baseDmg;
+    getShooter = () => {
+        return this.#shooter;
     }
 
-    constructor(username = 'Player') {
+    constructor(username = 'Player', shooter) {
         this.#username = username;
+        this.#shooter = shooter;
     }
 }
 
