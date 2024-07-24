@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{#e;#s=1;#i=3;#t=3;getUsername=()=>this.#e;setUsername=e=>{this.#e=e};getPower=()=>this.#s;powerModifier=e=>{this.#s=this.#s*e};getLives=()=>this.#i;gainLife=()=>{this.#i++};loseLife=()=>{this.#i--};getBombs=()=>this.#t;useBomb=()=>{this.#t--};gainBomb=()=>{this.#t++};constructor(e="Player"){this.#e=e}}("test")})();
