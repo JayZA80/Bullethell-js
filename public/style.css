@@ -5,4 +5,5 @@ body {
 canvas {
     border: 2px solid black;
     height: 70vh;
+    width: calc(70vh * 1.778)
 }
