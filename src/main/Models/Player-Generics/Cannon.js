@@ -1,4 +1,4 @@
-class Shooter {
+class Cannon {
     #secondaryCannons = false;
     #fullArmament = false;
     #baseDMG = 100;
@@ -24,6 +24,11 @@ class Shooter {
             this.toggleFullArmament();
         }
     }
+
+    constructor() {
+        this.#baseDMG;
+        this.#fullArmament;
+    }
 }
 
-export default Shooter;
+export default Cannon;
