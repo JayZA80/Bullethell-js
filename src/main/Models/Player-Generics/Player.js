@@ -16,7 +16,7 @@ class Player {
         return this.#power;
     }
     powerModifier = (x) => {
-        this.#power = this.#power * x;
+        this.#power = Math.round(this.#power * x * 100) / 100;
     }
 
     getLives = () => {
