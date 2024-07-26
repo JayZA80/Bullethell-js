@@ -1,4 +1,4 @@
-import Cannon from "../main/Models/Player-Generics/Cannon";
+import Cannon from "../main/Models/Generics/Cannon";
 
 const cannon = new Cannon();
 

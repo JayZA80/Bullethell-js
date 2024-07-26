@@ -1,5 +1,5 @@
-import Player from './Models/Player-Generics/Player.js';
-import { Cannon } from './Models/Player-Generics/Cannon.js';
+import Player from './Models/Generics/Player.js';
+import Cannon from './Models/Generics/Cannon.js';
 
 const cannon = new Cannon();
 
